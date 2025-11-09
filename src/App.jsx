@@ -13,8 +13,6 @@ export default function App() {
 
   return (
     <BrowserRouter>
-      {/* visual test: should be a red box if Tailwind is working */}
-      <div className="bg-red-500 text-white p-4">Tailwind test — if this is red, Tailwind is active</div>
 
       {/* Kui user on logitud, näita Navbar */}
       {userEmail && <Navbar />}
