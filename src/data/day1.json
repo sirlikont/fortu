@@ -1,0 +1,61 @@
+{
+  "title": "Päev 1 — Raha ja mina",
+  "blocks": [
+    {
+      "type": "intro",
+      "text": "Kas oled märganud, et mõned inimesed tunduvad rahaga alati tasakaalus olevat... (jne, sinu intro tekst)."
+    },
+    {
+      "type": "theory",
+      "text": "🧠 Rahapsühholoogia – miks me käitume rahaga nii nagu käitume... (siia sinu teooria tekst tervikuna)."
+    },
+    {
+      "type": "quiz_abcd",
+      "questions": [
+        {
+          "q": "Kui mõtled rahale, siis tunne, mis kõige sagedamini esile tuleb, on…",
+          "options": {
+            "a": "Turvatunne – raha annab kindluse",
+            "b": "Ärevus – kardan, et seda pole piisavalt",
+            "c": "Vabadus – saan teha, mida soovin",
+            "d": "Süütunne – nagu ei tohiks seda nautida"
+          }
+        },
+        {
+          "q": "Kui sa saad raha...",
+          "options": { "a": "...", "b": "...", "c": "...", "d": "..." }
+        },
+        {
+          "q": "Kui pead rahast rääkima...",
+          "options": { "a": "...", "b": "...", "c": "...", "d": "..." }
+        }
+      ]
+    },
+    {
+      "type": "quiz_feedback",
+      "feedback": {
+        "a": "Sind juhib turvatunde vajadus...",
+        "b": "Raha tekitab sinus ärevust...",
+        "c": "Seostad raha vabadusega...",
+        "d": "Raha seostub sulle süü- või häbitundega..."
+      }
+    },
+    {
+      "type": "activity_text",
+      "instruction": "Kirjuta 3 lauset, mis iseloomustavad sinu lapsepõlve sõnumeid rahast...",
+      "placeholder": "Kirjuta siia..."
+    },
+    {
+      "type": "activity_feedback",
+      "text": "Väga hea — see on esimene teadlikkuse samm..."
+    },
+    {
+      "type": "summary",
+      "text": "Raha on peegel — see näitab, millised on meie väärtused ja tunded..."
+    },
+    {
+      "type": "teaser",
+      "text": "Homme sukeldume teemasse „Raha ja tunded“..."
+    }
+  ]
+}
