@@ -1,4 +1,6 @@
 // src/components/blocks/QuizFeedback.jsx
+import BaseBlock from "./BaseBlock";
+
 export default function QuizFeedback({ feedback }) {
   // feedback on object {a, b, c, d}
   return (

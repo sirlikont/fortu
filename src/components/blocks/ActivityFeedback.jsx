@@ -1,8 +1,12 @@
 // src/components/blocks/ActivityFeedback.jsx
+import BaseBlock from "./BaseBlock";
+
 export default function ActivityFeedback({ text }) {
+  if (!text) return null;
+
   return (
-    <div className="bg-gray-50 border-l-4 border-gray-400 p-4 rounded shadow mb-4">
-      <p className="text-gray-900">{text}</p>
+    <div className="p-4 bg-gray-50 border-l-4 border-gray-600 rounded shadow mb-4">
+      <p>{text}</p>
     </div>
   );
 }

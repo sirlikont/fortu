@@ -1,13 +1,13 @@
 {
-  "title": "Päev 1 — Raha ja mina",
+  "title": "1. PÄEV: Raha ja mina",
   "blocks": [
     {
       "type": "intro",
-      "text": "Kas oled märganud, et mõned inimesed tunduvad rahaga alati tasakaalus olevat... (jne, sinu intro tekst)."
+      "text": "Kas oled märganud, et mõned inimesed tunduvad rahaga alati tasakaalus olevat, samas kui teised tunnevad pidevalt, et raha pole kunagi piisavalt? Tegelikult pole see ainult numbrites kinni – see on seotud sellega, mida me rahast mõtleme ja tunneme. Meie suhe rahaga hakkab kujunema juba lapsena. Kuuleme fraase nagu: \"Raha ei kasva puu otsas.\" \"Tööd peab rügama, et ära elada.\" \"Rikas olla on häbiasi.\" \"Raha tuleb kulutada, elu on elamiseks.\" Need lausungid jäävad meid alateadlikult saatma ja kujundavad seda, kuidas me täna rahaga käitume. Raha ei ole lihtsalt vahend, see on ka emotsionaalne ja väärtuseline peegel."
     },
     {
       "type": "theory",
-      "text": "🧠 Rahapsühholoogia – miks me käitume rahaga nii nagu käitume... (siia sinu teooria tekst tervikuna)."
+      "text": "Rahapsühholoogia – miks me käitume rahaga nii nagu käitume. Rahapsühholoogia uurib, kuidas tunded, mõtted ja kogemused mõjutavad rahaga seotud otsuseid. Kuigi me arvame, et rahaasjades oleme ratsionaalsed, juhivad meid sageli hoopis emotsioonid – hirm, uhkus, süütunne, rõõm, kadedus, turvatunde vajadus. Need varajased kogemused muutuvad rahahoiakuteks – alateadlikeks uskumusteks ja mustriteks, mis juhivad meie otsuseid."
     },
     {
       "type": "quiz_abcd",
@@ -22,40 +22,43 @@
           }
         },
         {
-          "q": "Kui sa saad raha...",
-          "options": { "a": "...", "b": "...", "c": "...", "d": "..." }
+          "q": "Kui sa saad raha (näiteks palgapäeval või kingitusena), siis tavaliselt…",
+          "options": {
+            "a": "Panen osa kohe kõrvale, et kindlam tunne oleks",
+            "b": "Tunnen pinget – kas see ikka jätkub?",
+            "c": "Tahan end premeerida, sest olen selle ära teeninud",
+            "d": "Tunnen segadust – ei teagi, mida sellega teha"
+          }
         },
         {
-          "q": "Kui pead rahast rääkima...",
-          "options": { "a": "...", "b": "...", "c": "...", "d": "..." }
+          "q": "Kui pead rahast rääkima (nt sõbra, partneri või kolleegiga), siis…",
+          "options": {
+            "a": "Olen avatud ja saan sellest rahulikult rääkida",
+            "b": "Tunnen ebamugavust või väldin teemat",
+            "c": "Tahan näidata, et mul on asjad kontrolli all",
+            "d": "Muretsen, et teised hindavad mind selle põhjal"
+          }
         }
-      ]
-    },
-    {
-      "type": "quiz_feedback",
+      ],
       "feedback": {
-        "a": "Sind juhib turvatunde vajadus...",
-        "b": "Raha tekitab sinus ärevust...",
-        "c": "Seostad raha vabadusega...",
-        "d": "Raha seostub sulle süü- või häbitundega..."
+        "a": "Sind juhib turvatunde vajadus. Rahast mõtlemine pakub kindlust, kuid hoidu liigse kontrolli all hoidmisest.",
+        "b": "Raha tekitab sinus ärevust. Proovi uurida, kust need hirmud pärinevad.",
+        "c": "Seostad raha vabaduse ja eneseteostusega — jälgi, et impulssostud ei juhiks sind.",
+        "d": "Raha seostub sulle süü- või häbitundega. Väärtuse ja rahulolu lubamine iseendale on sinu kasvukoht."
       }
     },
     {
       "type": "activity_text",
-      "instruction": "Kirjuta 3 lauset, mis iseloomustavad sinu lapsepõlve sõnumeid rahast...",
-      "placeholder": "Kirjuta siia..."
-    },
-    {
-      "type": "activity_feedback",
-      "text": "Väga hea — see on esimene teadlikkuse samm..."
+      "instruction": "Kirjuta 3 lauset, mis iseloomustavad sinu lapsepõlve sõnumeid rahast. Mida sa kuulsid vanematelt või õpetajatelt rahast rääkides?",
+      "feedback": "👉 Harjutuse eesmärk pole hinnata, vaid märgata. Teadlikkus oma tunnetest on esimene samm, et neid ei laseks rahaga seotud otsuseid juhtida, vaid toetaksid neid."
     },
     {
       "type": "summary",
-      "text": "Raha on peegel — see näitab, millised on meie väärtused ja tunded..."
+      "text": "Raha on peegel — see näitab, millised on meie väärtused ja tunded, mitte ainult numbrid pangakontol. Kui tunneme oma hoiakuid ja mustreid, saame hakata teadlikult looma suhet, mis toetab meie eesmärke ja heaolu."
     },
     {
       "type": "teaser",
-      "text": "Homme sukeldume teemasse „Raha ja tunded“..."
+      "text": "Homme sukeldume teemasse „Raha ja tunded“ – uurime, kuidas emotsioonid nagu hirm, süütunne ja uhkus mõjutavad meie rahaga seotud otsuseid ja käitumist."
     }
   ]
 }

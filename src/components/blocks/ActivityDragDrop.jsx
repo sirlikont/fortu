@@ -1,8 +1,10 @@
 // src/components/blocks/ActivityDragDrop.jsx
-export default function ActivityDragDrop({ instruction }) {
+import BaseBlock from "./BaseBlock";
+
+export default function ActivityDragDrop({ instruction, color = "green" }) {
   return (
-    <div className="bg-pink-50 p-4 rounded shadow mb-4">
-      <p className="text-pink-900">{instruction || "Drag & Drop Activity placeholder"}</p>
-    </div>
+    <BaseBlock color={color}>
+      <p>{instruction || "Drag & Drop Activity placeholder"}</p>
+    </BaseBlock>
   );
 }

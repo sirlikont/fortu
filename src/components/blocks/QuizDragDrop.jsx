@@ -1,4 +1,6 @@
 // src/components/blocks/QuizDragDrop.jsx
+import BaseBlock from "./BaseBlock";
+
 export default function QuizDragDrop({ text }) {
   return (
     <div className="bg-pink-50 p-4 rounded shadow mb-4">

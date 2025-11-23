@@ -2,25 +2,19 @@ import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import "../index.css";
 
-export default function LoginPage() {
+export default function LoginPage({ onLogin }) {
   const [email, setEmail] = useState("");
   const navigate = useNavigate();
 
   useEffect(() => {
     const storedEmail = localStorage.getItem("userEmail");
-    if (storedEmail) {
-      navigate("/day/1"); // kui juba logitud, suuna esimese päeva lehele
-    }
+    if (storedEmail) navigate("/day/1");
   }, [navigate]);
 
   const handleLogin = (e) => {
     e.preventDefault();
-    if (email.trim() === "") return alert("Palun sisesta e-mail!");
-
-    localStorage.setItem("userEmail", email);
-    const today = new Date().toISOString().split("T")[0]; // YYYY-MM-DD
-    localStorage.setItem("startDate", today);
-
+    if (!email.trim()) return alert("Palun sisesta e-mail!");
+    onLogin(email); // ⬅ nüüd App.jsx state uuendub
     navigate("/day/1");
   };
 

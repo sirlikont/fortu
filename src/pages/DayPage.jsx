@@ -1,11 +1,12 @@
 import { useParams } from "react-router-dom";
 import { useState } from "react";
 
+import Navbar from "../components/Navbar";
+
 import day1 from "../data/day1.json";
 import day2 from "../data/day2.json";
 import day3 from "../data/day3.json";
 
-// plokikomponendid
 import IntroBlock from "../components/blocks/IntroBlock";
 import TheoryBlock from "../components/blocks/TheoryBlock";
 import QuizABCD from "../components/blocks/QuizABCD";
@@ -29,8 +30,11 @@ export default function DayPage() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const currentBlock = data.blocks[currentIndex];
 
-  const goNext = () => setCurrentIndex((i) => Math.min(i + 1, data.blocks.length - 1));
-  const goPrev = () => setCurrentIndex((i) => Math.max(i - 1, 0));
+  const goNext = () =>
+    setCurrentIndex((i) => Math.min(i + 1, data.blocks.length - 1));
+
+  const goPrev = () =>
+    setCurrentIndex((i) => Math.max(i - 1, 0));
 
   const renderBlock = () => {
     switch (currentBlock.type) {
@@ -50,15 +54,51 @@ export default function DayPage() {
   };
 
   return (
-    <div className="p-4 max-w-md mx-auto">
-      <h1 className="font-bold text-xl mb-6">{data.title}</h1>
+  <div className="bg-gray-50 min-h-screen">
+    <div className="pt-20 pb-10 px-4 max-w-md mx-auto">
+      {/* Päeva pealkiri */}
+      <h1 className="text-2xl font-bold text-emerald-800 mb-4 text-center">
+        {data.title}
+      </h1>
 
-      {renderBlock()}
+      {/* Progress bar kaardis Navbar'i all */}
+      <div className="bg-white rounded-lg shadow p-2 mb-4">
+        <div className="flex justify-between mb-1 text-sm text-gray-600">
+          <span>Plokk {currentIndex + 1}</span>
+          <span>/{data.blocks.length}</span>
+        </div>
+        <div className="w-full bg-gray-200 h-2 rounded">
+          <div
+            className="bg-emerald-700 h-2 rounded"
+            style={{ width: `${((currentIndex + 1) / data.blocks.length) * 100}%` }}
+          ></div>
+        </div>
+      </div>
 
-      <div className="flex justify-between mt-10">
-        <button onClick={goPrev} disabled={currentIndex === 0}>← Tagasi</button>
-        <button onClick={goNext} disabled={currentIndex === data.blocks.length - 1}>Edasi →</button>
+      {/* Plokk kaardis */}
+      <div className="bg-white rounded-lg shadow p-4 mb-6">
+        {renderBlock()}
+      </div>
+
+      {/* Plokkude navigeerimine */}
+      <div className="flex justify-between">
+        <button
+          onClick={goPrev}
+          disabled={currentIndex === 0}
+          className="button-small disabled:opacity-30"
+        >
+          ← Tagasi
+        </button>
+
+        <button
+          onClick={goNext}
+          disabled={currentIndex === data.blocks.length - 1}
+          className="button-small disabled:opacity-30"
+        >
+          Edasi →
+        </button>
       </div>
     </div>
-  );
+  </div>
+);
 }

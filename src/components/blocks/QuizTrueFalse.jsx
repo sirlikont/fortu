@@ -1,5 +1,6 @@
 // src/components/blocks/QuizTrueFalse.jsx
 import { useState } from "react";
+import BaseBlock from "./BaseBlock";
 
 export default function QuizTrueFalse({ questions }) {
   const [answers, setAnswers] = useState({});

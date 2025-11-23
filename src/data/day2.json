@@ -1,4 +1,67 @@
 {
-  "title": "Päev 2 — Placeholder",
-  "blocks": []
+  "title": "2. PÄEV: Raha ja tunded: süütunne, hirm, uhkus – kuidas need meid juhivad",
+  "blocks": [
+    {
+      "type": "intro",
+      "text": "Kas oled kunagi tundnud süütunnet, kui ostad midagi endale? Või hirmu, et raha saab otsa? Või uhkust, kui suudad endale midagi lubada? Raha puudutab meid emotsionaalselt palju sügavamalt, kui me arvame. Iga kord, kui teeme rahalise otsuse – kas kulutada, säästa või keelduda –, käivituvad tunded ja alateadlikud mustrid. Sellepärast pole rahaga seotud käitumine kunagi ainult loogiline. See on emotsionaalne keel, mida tasub õppida lugema."
+    },
+    {
+      "type": "theory",
+      "text": "💡 Raha pole lihtsalt number\nRaha ise on neutraalne – see on lihtsalt vahend. Kuid me anname sellele tähenduse: raha on turvatunne, vabadus, väärtus, armastus või võim. Just see tähendus paneb meid tundma tugevaid emotsioone.\n\n🧠 Emotsioonid mõjutavad meie rahakäitumist\nHirm: Hirm rahapuuduse ees võib panna meid üle-säästma või vältima riske, isegi kui need oleksid mõistlikud. Mõned inimesed hoiavad kõvasti kinni igast sendist, kartes, et “kunagi võib vaja minna”. Teistel väljendub hirm vastupidiselt – kulutamises, sest “täna vähemalt saan nautida”.\n\nSüütunne: Võib tekkida, kui kulutame endale („Kas ma tõesti vajan seda?“) või kui meil on rohkem kui teistel. Süütunne paneb sageli oma vajadusi alla suruma ja rahaga seotud otsuseid tegemata jätma. Samas võib see sundida ka üle-kompenseerima – andma liiga palju teistele või teha otsuseid, et “olla hea inimene”.\n\nUhkuse- ja häbitunne: Raha võib anda uhkustunde, kui tunneme, et oleme midagi saavutanud. See on loomulik ja tervislik, kui seda saadab tänutunne, mitte üleolek. Häbi võib tekkida siis, kui arvame, et meil pole “piisavalt” või kui oleme teinud rahalise vea. Häbitunne võib panna inimesi varjama oma rahalist seisu, vältima arutelusid ja kaotama kontrolli olukorra üle. Need tunded ei ole halvad – need on signaalid. Need näitavad, mis meie sees vajab tähelepanu ja tasakaalu.\n\n💬 Mida emotsioonid meile õpetavad\nRahaemotsioonid räägivad meie sisemisest vajadusest: Hirm räägib turvatunde vajadusest. Süütunne räägib lubadusest endale ja piiridest teistega. Uhkus räägib väärtustamisest ja saavutusvajadusest. Kui me neid tundeid märkame ja mõistame, saame teha rahaga teadlikumaid otsuseid – mitte otsuseid hirmust või süüst, vaid väärtustest lähtudes."
+    },
+    {
+      "type": "quiz_abcd",
+      "questions": [
+        {
+          "q": "Millised tunded juhivad sinu rahakäitumist? Kui pead suurema ostu tegema, siis tavaliselt…",
+          "options": {
+            "a": "Tunnen hirmu – mis siis, kui hiljem kahetsen?",
+            "b": "Tunnen süüd – kas see pole liiga isekas?",
+            "c": "Tunnen rõõmu ja uhkust – olen selle ära teeninud",
+            "d": "Tunnen rahu – otsus on läbimõeldud"
+          }
+        },
+        {
+          "q": "Kui kuu lõpus raha hakkab otsa saama, siis…",
+          "options": {
+            "a": "Tekib ärevus ja vajadus kõike jälgida",
+            "b": "Tunnen häbi, et jälle ei planeerinud paremini",
+            "c": "Mõtlen: küll tuleb juurde, pole hullu",
+            "d": "Võtan rahulikult, sest mul on süsteem"
+          }
+        },
+        {
+          "q": "Kui saad ootamatult lisaraha, siis…",
+          "options": {
+            "a": "Säästan – kunagi võib vaja minna",
+            "b": "Tunnen süüd, et mul läks paremini kui teistel",
+            "c": "Kulutan midagi erilist – tahan rõõmu tunda",
+            "d": "Jagun selle targalt – osa endale, osa tulevikku"
+          }
+        }
+      ],
+      "feedback": {
+        "a": "Sind juhib hirm – raha seostub pigem puuduse kui võimalusega. Väike turvapuhver või teadlik eelarve aitab ärevust vähendada.",
+        "b": "Sind mõjutab süütunne – proovi lubada endale rohkem ilma hinnanguta. Raha ei määra su väärtust.",
+        "c": "Sind juhib uhkus ja rõõm – need tunded annavad energiat, aga tasakaalusta neid teadliku planeerimisega.",
+        "d": "Sa oled rahulik vaatleja – oled hakanud tundeid märkama ja nende järgi teadlikult tegutsema."
+      }
+    },
+    {
+      "type": "activity_text",
+      "instruction": "Kirjuta 3 viimast korda, kui tegid rahalise otsuse (nt ostsid midagi, keeldusid ostmast, säästsid, annetasid). Iga otsuse juurde kirjuta, mis tunne sind sel hetkel saatis. Näiteks: “Ostsin uued jalanõud → süütunne ja rõõm.” “Maksmine arve eest → pingetunne.” “Tegin säästukonto → rahu ja uhkus.” Vaata, kas märkad mustrit. Milline tunne kordub kõige sagedamini?"
+    },
+    {
+      "type": "activity_feedback",
+      "text": "👉 Harjutuse eesmärk pole hinnata, vaid märgata. Teadlikkus oma tunnetest on esimene samm, et neid ei laseks rahaga seotud otsuseid juhtida, vaid toetaksid neid."
+    },
+    {
+      "type": "summary",
+      "text": "Raha puudutab meie sügavamaid vajadusi – turvatunnet, vabadust, väärtust. Kui me ei mõista oma tundeid rahaga seoses, juhivad need meid varjatult: me kas väldime, kulutame, peidame või pingutame üle. Aga kui me õpime neid tundeid teadvustama, mitte alla suruma, siis: hirmust saab ettevaatus, süütundest vastutustunne, uhkusest enesekindlus ja rahulolu. Tänane päev on kutse märgata, mitte hinnata. Rahaemotsioonid ei tee sind halvemaks – need on vaid kompass, mis näitab, kuhu poole vaadata, et sinu rahasuhe oleks teadlikum ja rahulikum."
+    },
+    {
+      "type": "teaser",
+      "text": "Homme liigume edasi teemaga „Rahauskumused“ – avastame, millised piiravad ja toetavad mõtted rahast meid juhivad ning kuidas neid ümber kujundada, et raha hakkaks sinu kasuks tööle, mitte sinu vastu."
+    }
+  ]
 }
