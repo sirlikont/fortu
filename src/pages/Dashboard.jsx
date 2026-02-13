@@ -4,11 +4,12 @@ import { useNavigate } from "react-router-dom";
 import day1 from "../data/day1.json";
 import day2 from "../data/day2.json";
 import day3 from "../data/day3.json";
+import day4 from "../data/day4.json";
 
 import BaseBlock from "../components/blocks/BaseBlock.jsx";
 import DayCard from "../components/DayCard.jsx"; // uus komponent
 
-const allDays = { 1: day1, 2: day2, 3: day3 };
+const allDays = { 1: day1, 2: day2, 3: day3, 4: day4 };
 
 export default function Dashboard() {
   const navigate = useNavigate();

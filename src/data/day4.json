@@ -1,0 +1,69 @@
+{
+  "title": "Raha ja valikud",
+  "blocks": [
+    {
+      "type": "intro",
+      "text": "Kas oled märganud, et mõnikord on lihtne otsustada, millele raha kulutada — ja teinekord tundub iga valik raske? ... Meie rahalised valikud on nagu peegel — need näitavad, mis on meie elus esikohal."
+    },
+    {
+      "type": "theory",
+      "text": "💡 Väärtused = rahaliste otsuste juur ... 👉 Küsi endalt: Mille nimel ma hetkel raha kulutan? ..."
+    },
+    {
+      "type": "quiz_singlechoice",
+      "title": "Väärtuste sobitamise mini-test",
+      "description": "💡 Fookus: lihtne kontroll, kas inimene mõistab, kuidas väärtused väljenduvad käitumises.",
+      "questions": [
+        {
+          "q": "Ma maksan alati arved enne tähtaega.",
+          "options": {
+            "A": "Turvatunne",
+            "B": "Vabadus",
+            "C": "Rõõm"
+          },
+          "correct": "A"
+        },
+        {
+          "q": "Kulutan pigem reisile kui uuele telefonile.",
+          "options": {
+            "A": "Areng",
+            "B": "Vabadus",
+            "C": "Stabiilsus"
+          },
+          "correct": "B"
+        },
+        {
+          "q": "Annan sõbrale laenu, kuigi ise pean kokku hoidma.",
+          "options": {
+            "A": "Suhted",
+            "B": "Eneseareng",
+            "C": "Tervis"
+          },
+          "correct": "A"
+        }
+      ],
+      "feedback": "💬 Väärtuste tundmine aitab sul oma rahaga rohkem rahu sõlmida.",
+      "color": "green"
+    },
+    {
+      "type": "activity_singlechoice",
+      "title": "💬 Valikmäng / mini-simulatsioon",
+      "instruction": "Kujutle, et saad korraga 500 €. Kuhu sa selle paneksid?",
+      "options": [
+        { "id": "travel", "label": "🏖️ Reisimine", "feedback": "Sinu valik peegeldab, et väärtustad enesearengut." },
+        { "id": "invest", "label": "💼 Investeering", "feedback": "Sinu valik peegeldab, et väärtustad vabadust." },
+        { "id": "bills", "label": "🧾 Arvete tasumine", "feedback": "Sinu valik peegeldab, et väärtustad turvatunnet." },
+        { "id": "gift", "label": "🎁 Kingitused teistele", "feedback": "Sinu valik peegeldab, et väärtustad suhteid." },
+        { "id": "savings", "label": "💰 Säästukontole", "feedback": "Sinu valik peegeldab, et väärtustad turvatunnet." }
+      ]
+    },
+    {
+      "type": "summary",
+      "text": "Meie rahalised otsused räägivad rohkem kui meie sõnad. Need näitavad, mida me tegelikult oluliseks peame — isegi siis, kui me endale seda ei tunnista. Kui raha liigub kooskõlas väärtustega, tunneme rahu ja kindlust. Kui mitte, tunneme süütunnet, kahetsust või stressi. Teadlikkus oma väärtustest on finantstarkuse tuum."
+    },
+    {
+      "type": "teaser",
+      "text": "Homme liigume järgmise sammu juurde: Kuidas panna oma väärtused ja eesmärgid tööle SMART põhimõtte abil. Õpid, kuidas sõnastada rahalisi eesmärke nii, et need oleksid selged, mõõdetavad ja päriselt saavutavad."
+    }
+  ]
+}

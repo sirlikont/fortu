@@ -6,20 +6,23 @@ import Navbar from "../components/Navbar";
 import day1 from "../data/day1.json";
 import day2 from "../data/day2.json";
 import day3 from "../data/day3.json";
+import day4 from "../data/day4.json";
 
 import IntroBlock from "../components/blocks/IntroBlock";
 import TheoryBlock from "../components/blocks/TheoryBlock";
 import QuizABCD from "../components/blocks/QuizABCD";
+import QuizSingleChoice from "../components/blocks/QuizSingleChoice";
 import QuizTrueFalse from "../components/blocks/QuizTrueFalse";
 import QuizDragDrop from "../components/blocks/QuizDragDrop";
 import QuizFeedback from "../components/blocks/QuizFeedback";
 import ActivityText from "../components/blocks/ActivityText";
 import ActivityDragDrop from "../components/blocks/ActivityDragDrop";
+import ActivityChoose from "../components/blocks/ActivityChoose";
 import ActivityFeedback from "../components/blocks/ActivityFeedback";
 import SummaryBlock from "../components/blocks/SummaryBlock";
 import TeaserBlock from "../components/blocks/TeaserBlock";
 
-const dayData = { 1: day1, 2: day2, 3: day3 };
+const dayData = { 1: day1, 2: day2, 3: day3, 4: day4 };
 
 export default function DayPage() {
   const { dayNumber } = useParams();
@@ -41,11 +44,14 @@ export default function DayPage() {
       case "intro": return <IntroBlock {...currentBlock} />;
       case "theory": return <TheoryBlock {...currentBlock} />;
       case "quiz_abcd": return <QuizABCD {...currentBlock} />;
+      case "quiz_singlechoice": return <QuizSingleChoice {...currentBlock} />;
       case "quiz_dragdrop": return <QuizDragDrop {...currentBlock} />;
       case "quiz_truefalse": return <QuizTrueFalse {...currentBlock} />;
       case "quiz_feedback": return <QuizFeedback {...currentBlock} />;
       case "activity_text": return <ActivityText {...currentBlock} />;
       case "activity_dragdrop": return <ActivityDragDrop {...currentBlock} />;
+      case "activity_singlechoice": return <ActivityChoose {...currentBlock} />;
+      case "activity_choose": return <ActivityChoose {...currentBlock} />;
       case "activity_feedback": return <ActivityFeedback {...currentBlock} />;
       case "summary": return <SummaryBlock {...currentBlock} />;
       case "teaser": return <TeaserBlock {...currentBlock} />;

@@ -50,7 +50,7 @@ export default function QuizABCD({ questions, feedback, onComplete }) {
       {!showFeedback && (
         <button
           onClick={handleSubmit}
-          className="mt-2 px-4 py-2 bg-green-700 text-white rounded"
+          className="button-small mb-2"
         >
           Valmis!
         </button>
