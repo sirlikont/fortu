@@ -49,7 +49,8 @@
     },
     {
       "type": "activity_text",
-      "instruction": "Kirjuta 3 viimast korda, kui tegid rahalise otsuse (nt ostsid midagi, keeldusid ostmast, säästsid, annetasid). Iga otsuse juurde kirjuta, mis tunne sind sel hetkel saatis. Näiteks: “Ostsin uued jalanõud → süütunne ja rõõm.” “Maksmine arve eest → pingetunne.” “Tegin säästukonto → rahu ja uhkus.” Vaata, kas märkad mustrit. Milline tunne kordub kõige sagedamini?"
+      "instruction": "Kirjuta 3 viimast korda, kui tegid rahalise otsuse (nt ostsid midagi, keeldusid ostmast, säästsid, annetasid). Iga otsuse juurde kirjuta, mis tunne sind sel hetkel saatis. Näiteks: “Ostsin uued jalanõud → süütunne ja rõõm.” “Maksmine arve eest → pingetunne.” “Tegin säästukonto → rahu ja uhkus.”",
+      "feedback": "Vaata, kas märkad mustrit. Milline tunne kordub kõige sagedamini?"
     },
     {
       "type": "activity_feedback",

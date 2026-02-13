@@ -1,6 +1,6 @@
 // src/components/blocks/BaseBlock.jsx
 
-export default function BaseBlock({ children, color = "green1" }) {
+export default function BaseBlock({ children, color = "green" }) {
   const colorMap = {
     green: { bg: "bg-green-50", border: "border-l-4 border-green-600", text: "text-green-900" },
     gray1:  { bg: "bg-gray-50", border: "border-l-4 border-gray-400", text: "text-gray-900" },
@@ -8,7 +8,7 @@ export default function BaseBlock({ children, color = "green1" }) {
     gray3:  { bg: "bg-gray-200", border: "border-l-4 border-gray-600", text: "text-gray-950" }
   };
 
-  const { bg, border, text } = colorMap[color] || colorMap.green1;
+  const { bg, border, text } = colorMap[color] || colorMap.green;
 
   return (
     <div className={`${bg} ${border} p-4 rounded shadow mb-4`}>

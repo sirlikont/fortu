@@ -1,10 +1,6 @@
-const DEV_MODE = true; // ⬅️ arenduseks, avab kõik päevad
-
-export function getDaysPassed() {
-  if (DEV_MODE) return 100; // arenduses avab kõik päevad
-
+function getCurrentDay() {
   const startDate = localStorage.getItem("startDate");
-  if (!startDate) return 0;
+  if (!startDate) return 1;
 
   const start = new Date(startDate + "T00:00:00");
   const today = new Date();
@@ -13,3 +9,4 @@ export function getDaysPassed() {
   const diff = today - start;
   return Math.floor(diff / (1000*60*60*24)) + 1;
 }
+export default getCurrentDay;
