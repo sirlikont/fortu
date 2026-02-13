@@ -58,7 +58,7 @@ export default function DayPage() {
     <div className="pt-20 pb-10 px-4 max-w-md mx-auto">
       {/* Päeva pealkiri */}
       <h1 className="text-2xl font-bold text-emerald-800 mb-4 text-center">
-        {data.title}
+        {dayNumber}. PÄEV: {data.title}
       </h1>
 
       {/* Progress bar kaardis Navbar'i all */}

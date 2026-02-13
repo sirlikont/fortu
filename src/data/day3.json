@@ -1,4 +1,49 @@
 {
-  "title": "Päev 3 — Placeholder",
-  "blocks": []
+  "title": "Rahauskumused – nähtamatu lugu, mis juhib su otsuseid",
+  "blocks": [
+    {
+      "type": "intro",
+      "text": "Eile uurisime, millised tunded mõjutavad meie rahakäitumist. Täna vaatame veel sügavamale – millised uskumused neid tundeid toidavad.\n\nIgaühel meist on alateadlikud laused, mida me iseendale rahast räägime:\n💭 „Ma ei ole rahaga hea.“\n💭 „Kui mul on rohkem raha, võtan selle kelleltki teiselt ära.“\n💭 „Raha tuleb ainult raske tööga.“\n\nNeed uskumused mõjutavad seda, kas julgeme palka küsida, investeerida, säästa või tunnistada, mida tegelikult tahame.\n\nHea uudis on see: uskumused ei ole tõde – need on lood. Ja lugu saab muuta."
+    },
+    {
+      "type": "theory",
+      "text": "🧠 Mis on rahauskumused?\nRahauskumused on alateadlikud mõtted ja reeglid, mis juhivad meie rahakäitumist. Need tekivad lapsepõlvest, ühiskondlikest sõnumitest ja isiklikest kogemustest.\n\nSageli märkame neid alles siis, kui näeme korduvaid mustreid:\n– töötad palju, aga raha ei jää kunagi alles\n– kardad investeerimist, sest „see pole minu jaoks“\n– tunned süüd, kui teenid rohkem kui teised\n– väldid oma kontojäägi vaatamist\n\n📉 Piiravad uskumused hoiavad meid väiksemana kui me tegelikult oleme.\nNäiteks: „Ma ei saa rahas asju hästi ajada.“ „Kui mul on rohkem raha, kaotan selle kindlasti.“ „Rikas inimene on isekas.“\n\n📈 Toetavad uskumused loovad rahu ja võimalusi.\nNäiteks: „Ma õpin iga päev rahaga paremini ümber käima.“ „Raha on tööriist, mis aitab mul luua vabadust.“ „Ma väärin rahalist kindlust.“\n\nKui soovid oma rahalist reaalsust muuta, pead alustama mõtetest, mitte rahast."
+    },
+    {
+      "type": "activity_dragdrop",
+      "title": "🔍 Rahauskumuste peegel",
+      "instruction": "Allpool on valik väiteid. Lohista need sobivasse tulpa.",
+      "columns": [
+        { "id": "familiar", "title": "💬 Tuttav" },
+        { "id": "confusing", "title": "🤔 Segadust tekitav" },
+        { "id": "motivating", "title": "🚀 Motiveeriv" }
+      ],
+      "items": [
+        "Raha on midagi, mida tuleb alati karta kaotada.",
+        "Raha tuleb inimestele, kes on valmis õppima ja vastutama.",
+        "Raha tekitab tülisid, seega on parem sellest mitte rääkida.",
+        "Raha on energia, mida saab juhtida sama teadlikult nagu aega.",
+        "Kui ma teen vigu rahas, tähendab see, et ma pole piisavalt tark.",
+        "Raha võib tulla kergelt ja rõõmuga."
+      ],
+      "reflection": [
+        "Millised väited tundusid sulle kõige “tõelisemad”?",
+        "Kas need toetavad sind või piiravad?",
+        "Mis oleks nende vastandmõte, mida sa võiksid proovida uskuda?"
+      ]
+    },
+    {
+      "type": "activity_text",
+      "instruction": "Kirjuta kolm lauset, mida oled rahaga seoses enda kohta mõelnud (nt: „Mul ei jää kunagi midagi alles“, „Raha on alati stress“, „Ma pole investeerimise tüüp“).\n\nSeejärel vali neist üks piirav uskumus ja kirjuta see ümber toetavaks mõtteks.",
+      "feedback": "Kuidas uus mõte tundub? Kas see tekitab kergust või tundub võõras? Kui tundub võõras, siis just sealt algab muutus."
+    },
+    {
+      "type": "summary",
+      "text": "Rahauskumused on nagu nähtamatu tarkvara, mis juhib meie otsuseid. Me ei saa muuta oma rahalist olukorda, kui meie mõttemustrid jäävad samaks. Teadlikkus neist uskumustest on esimene samm — ja uue mõtte valimine on teine. Raha on neutraalne – aga meie lugu rahast võib olla vabastav või piirav. Täna said sa võimaluse seda lugu teadlikult ümber kirjutada."
+    },
+    {
+      "type": "teaser",
+      "text": "Homme räägime sellest, kuidas rahalised otsused peegeldavad sinu väärtusi ja prioriteete – ehk miks mõnikord teeme otsuseid, mis ei vii meid tegelikult sinna, kuhu tahame jõuda. Sa avastad, kuidas oma igapäevased valikud panna tööle oma suuremate eesmärkide heaks."
+    }
+  ]
 }

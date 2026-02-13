@@ -8,7 +8,7 @@ export default function DayCard({ dayNumber, day, isOpen, onClick }) {
     <div onClick={onClick} className="cursor-pointer">
       <BaseBlock color={isOpen ? "green" : "gray1"}>
         <h2 className="font-semibold text-lg">
-          {dayNumber}. {day.title}
+          {dayNumber}. PÄEV: {day.title}
         </h2>
 
         {isOpen && teaser && <p className="mt-2 text-sm">{teaser}</p>}
